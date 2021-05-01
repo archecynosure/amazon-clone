@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 
+
 function Home() {
     return ( <
         div className = "home" >
@@ -68,8 +69,8 @@ function Home() {
         image = "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg" /
         >
         <
-        /div> <
-        /div> <
+        /div> < /
+        div > <
         /div>
     );
 }
