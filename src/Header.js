@@ -32,7 +32,8 @@ function Header() {
 
         <
         div className = "header__nav" >
-
+        <
+        Link to = "/login" >
         <
         div className = "header__option" >
         <
@@ -40,7 +41,8 @@ function Header() {
         span className = "header__optionLineTwo" > Sign in < /span> < /
         div >
 
-
+        <
+        /Link>
 
         <
         div className = "header__option" >
