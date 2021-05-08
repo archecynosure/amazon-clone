@@ -6,35 +6,28 @@ import Checkout from "./Checkout.js";
 import Login from "./Login.js"
 
 function App() {
-    return ( <
-        Router >
+    return (
+        <Router >
 
-        <
-        div className = "app" >
+            <div className="app" >
 
-        <
-        Switch >
-        <
-        Route path = "/login" >
-        <
-        Login / > <
-        /Route> <
-        Route path = "/checkout" >
-        <
-        Header / >
-        <
-        Checkout / > <
-        /Route> <
-        Route path = "/" >
-        <
-        Header / >
-        <
-        Home / >
-        <
-        /Route> < /
-        Switch > < /
-        div > < /
-        Router >
+                < Switch >
+                    <Route path="/login" >
+                        < Login />
+                    </Route>
+                    <Route path="/checkout" >
+                        <Header />
+                        <Checkout />
+                    </Route>
+
+                    <Route path="/" >
+                        < Header />
+                        <Home />
+                    </Route>
+                </Switch >
+            </div >
+
+        </Router >
     );
 }
 
